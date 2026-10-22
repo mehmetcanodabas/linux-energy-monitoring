@@ -1,0 +1,49 @@
+
+# Ignore everything by default
+*
+
+# Allow project directories
+!*/
+
+# C++ source and header files
+!*.cpp
+!*.h
+!*.hpp
+
+# CMake configuration
+!CMakeLists.txt
+
+# Alarm configuration
+!config/*.conf
+
+# Documentation
+!*.md
+
+# Git configuration
+!.gitignore
+!.gitattributes
+
+# Project result images
+!docs/results/*.png
+!docs/results/*.jpg
+!docs/results/*.jpeg
+
+# Ignore build outputs
+build/
+cmake-build-*/
+CMakeFiles/
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Ignore local development files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore secrets
+.env
+.env.*
