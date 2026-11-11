@@ -30,7 +30,7 @@ The application was developed and tested in an Ubuntu Linux (WSL2) environment.
 
 [HTTP Communication](docs/results/http%20communication.png): Remote alarm threshold update using HTTP POST, followed by HTTP GET to verify the updated alarm conditions.
 
-**Keywords:** C++17, Linux, TCP/IP, Socket Programming, HTTP GET/POST, CMake, Energy Monitoring, Electrical Measurements, Threshold-Based Alarms, Configuration Management, File Logging, Unit Testing, CTest.
+**Keywords:** Linux, TCP/IP, Socket Programming, HTTP GET/POST, CMake, Energy Monitoring, Electrical Measurements, Threshold-Based Alarms, Configuration Management, File Logging, Unit Testing, CTest, C++.
 
 **Development Environment:** Ubuntu Linux (WSL2), GCC, CMake.
 
